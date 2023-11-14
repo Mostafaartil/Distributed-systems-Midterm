@@ -12,3 +12,6 @@ jobs:
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
+      
+    - name: Build Web Application
+      run: npm run build
