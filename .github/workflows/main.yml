@@ -23,6 +23,6 @@ jobs:
 
     - name: Build and Push Docker Image
       run: |
-        docker build -t ${{ secrets.mostafartel }}/myweb:v1.0 .
+        docker build -t ${{ secrets.mostafartel }}/mydocker:v1.0 .
         docker login -u ${{ secrets.mostafartel }} -p ${{ secrets.dckr_pat_aBcklWnY_X7yOdJrGFELWjk8dZA }}
-        docker push ${{ secrets.mostafartel }}/myweb:v1.0
+        docker push ${{ secrets.mostafartel }}/mydocker:v1.0
