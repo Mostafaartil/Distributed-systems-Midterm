@@ -27,4 +27,4 @@ jobs:
       run: npm install
 
     - name: Build Web Application
-      run: npm --prefix https://github.com/Mostafaartil/Distributed-systems-Midterm run build
+      run: npm --prefix https:./Mostafaartil/Distributed-systems-Midterm run build
