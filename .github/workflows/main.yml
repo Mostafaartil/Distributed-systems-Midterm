@@ -18,8 +18,8 @@ jobs:
       with:
         node-version: '14'
 
-    - name: Install Dependencies
-      run: npm install
-
-    - name: Build Web Application
-      run: npm run build
+    - name: Install Dependencies and Build
+      run: |
+        cd Distributed-systems-Midterm  # Change to your project directory
+        npm install
+        npm run build
