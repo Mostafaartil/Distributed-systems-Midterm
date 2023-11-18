@@ -1,0 +1,12 @@
+{
+  "name": "ds-midterm1",
+  "version": "1.0.0",
+  "description": "![Watch Now](./img/Design.jpg) # One page Portfolio Website (HTML CSS Project) **Watch on YouTube ![YouTube Video Views](https://img.shields.io/youtube/views/ZFQkb26UD1Y?style=social) : https://youtu.be/ZFQkb26UD1Y**",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
