@@ -12,16 +12,11 @@ jobs:
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
-      
+
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
         node-version: '14'
-
-    - name: Debugging
-      run: |
-        pwd
-        ls -la
 
     - name: Install Dependencies
       run: npm install
