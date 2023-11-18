@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no tefst specified\" && exit 1",
-    "build": "http-server -p 8080"
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
