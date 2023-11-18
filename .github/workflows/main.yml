@@ -12,13 +12,6 @@ jobs:
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
-      
-    - name: Debugging
-      run: |
-        pwd
-        ls -la
-        ls -la Distributed-systems-Midterm
-        cat Distributed-systems-Midterm/package.json
 
     - name: Set up Node.js
       uses: actions/setup-node@v3
@@ -27,6 +20,5 @@ jobs:
 
     - name: Install Dependencies and Build
       run: |
-        cd Distributed-systems-Midterm
         npm install
         npm run build
